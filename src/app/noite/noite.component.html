@@ -1,0 +1,18 @@
+<h2>Cadastro de atletas do futebol</h2>
+
+
+<table border="4">
+    <tr>
+        <th>Times</th>
+        <th>Jogadores</th>
+        <th>Cidades</th>
+    </tr>
+    
+    <tr *ngFor="let cadastro of cadastros">
+        <td>{{cadastro.times}}</td>
+        <td>{{cadastro.jogadores}}</td>
+        <td>{{cadastro.cidades}}</td>
+    </tr>
+</table>
+
+
